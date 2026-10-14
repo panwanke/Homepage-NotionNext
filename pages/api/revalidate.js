@@ -8,7 +8,7 @@ import {
 
 export const config = {
   api: { bodyParser: { sizeLimit: '32kb' } },
-  maxDuration: 300
+  maxDuration: 60
 }
 
 /** Explicit data invalidation precedes page regeneration when requested. */
